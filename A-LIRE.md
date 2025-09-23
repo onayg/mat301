@@ -56,4 +56,4 @@ Ce cours vise à développer les compétences suivantes :
 
 📁 **Repository** : Les exercices de TD et les ressources du cours seront régulièrement mis à jour dans ce repository.
 
-📧 **Contact** : Pour toute question concernant le cours, n'hésitez pas à me contacter pendant les heures de bureau ou par email.
+📧 **Contact** : Pour toute question concernant le cours, n'hésitez pas à me contacter pendant les heures de bureau (: Mercredis 14h-15h) ou par email.
