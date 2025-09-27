@@ -1,0 +1,113 @@
+\documentclass[10pt]{article}
+\usepackage[french]{babel}
+\usepackage{enumerate}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{url}
+\author{Gönenç Onay}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  breaklines=true,
+  columns=fullflexible,
+  frame=single,
+  showstringspaces=false,
+  keepspaces=true,
+  numbers=left,
+  numberstyle=\small\color{gray}
+}
+\usepackage{hyperref}
+\newcounter{exocount}
+\newenvironment{exo}[1][]
+{\refstepcounter{exocount}\par\bigskip\noindent\textbf{Exercice \theexocount.} \ifx&#1&\else (#1)\fi\par\noindent}
+{\par\bigskip}
+
+\newtheorem{definition}{Définition}
+\newtheorem{innerthm}{Théorème}
+\newenvironment{thm}[1][]
+{\innerthm\ifx&#1&\else (#1)\fi}
+{\endinnerthm}
+
+\newenvironment{preuve}
+{\par\noindent\textbf{Preuve.}}
+{\hfill$\square$\par\bigskip}
+
+\newcommand{\imrec}[2]{\underleftarrow{#1}{(#2)}}
+\date{}
+\newcommand{\tq}{\; : \;}
+\newcommand{\bb}[1]{\mathbb{#1}}
+\newcommand{\entier}[1]{\left\lfloor #1 \right\rfloor}
+\title{TD 3: Sous-groupes engendr\'es, morphisms, quotients}
+\renewcommand{\epsilon}{\varepsilon}
+
+\begin{document}
+\maketitle
+\sloppy
+
+\begin{flushright}
+	2024 \\
+	GSU - Cours MAT-204
+\end{flushright}
+\hrule
+\bigskip
+\begin{exo}
+	Soit $K \subseteq H \subseteq G$ sous-groupes. Montrer que $[G:K] = [G:H][H:K]$ (la notation $[A : B]$ veut dire \emph{l'indice} de $A$ dans $B$.).
+\end{exo}
+\begin{exo}
+	Soit $p$ un nombre premier et $G$ un groupe d'ordre $p$. Montrer que
+	\begin{enumerate}
+		\item Les seuls sous-groupes de $G$ sont $\{e_G\}$ et $G$.
+
+		\textbf{Correction :} Soit $H$ un sous-groupe de $G$. Par le théorème de Lagrange, l'ordre de $H$ divise $p$, donc $|H|=1$ ou $|H|=p$. Donc $H = \{e_G\}$ ou $H = G$.
+
+		\item $
+
+
+
+
+
+
+	\end{enume
+\end{exo}rate}		\textbf{Correction :} Le noyau de $f$ est un sous-groupe de $G$, donc d'ordre $1$ ou $p$. S'il est d'ordre $1$, $f$ est injectif. S'il est d'ordre $p$, alors $\ker f = G$, donc $f$ est trivial.		\item Pour tout groupe $W$, tout homomorphisme $f: G \to W$ est injectif ou trivial (\emph{trivial} veut dire: $f(g)=e_{W}$ pour tout $g \in G$)		\textbf{Correction :} Soit $g \in G$, $g \neq e_G$. Le sous-groupe engendré par $g$ a un ordre qui divise $p$ et est supérieur à $1$, donc $| \langle g \rangle | = p$, donc $\langle g \rangle = G$. Donc $G$ est cyclique.G$ est cyclique.
+
+
+
+
+
+
+\begin{exo}
+	\begin{enumerate}
+		\item Montrer que tout sous-groupe d'un groupe commutative est normal dans $G$.
+		\item Trouver un groupe $G$ et $H\subseteq G$, avec $H$ commutative mais qui n'est pas normal dans $G$.
+	\end{enumerate}
+\end{exo}
+\begin{exo}
+	Pour $G$ un groupe et $x \in G$, montrer par récurrence que
+	$x^{k+\ell} = x^k x^\ell$, pour tout $k$ et $\ell$ dans $\mathbb{N}$. En déduire  que $f:(\mathbb{Z},+) \to \langle x \rangle, k \mapsto x^{k}$ est un homomorphisme surjective. En conclure que $f(k)=e_{G}$ si et seulement si $k$ divise $n$ pour un certain $n \in \mathbb{Z}$ et que $\langle x \rangle$ est isomorphe \`a $\frac{\mathbb{Z}}{n\mathbb{Z}}$.
+\end{exo}
+
+\begin{exo}
+	Le centre d'un groupe $G$ est l'ensemble $Z(G) := \{x \in G : xg = gx \text{ pour tout } g\in G\}$
+	\begin{enumerate}
+		\item Montrer que $Z$ est un sous-groupe normal de $G$.
+		\item Trouver les centres de $S_3$ et $D_4$.
+	\end{enumerate}
+\end{exo}
+\begin{exo}
+	Si $H \leq G$ est un sous-groupe d'indice $2$, montrer qu'il est alors normal dans $G$.
+\end{exo}
+
+\begin{exo}
+	Trouver des sous-groupes $H$ et $K$ dans $G := S_4$, tels que $H$ soit normal dans $K$ et $K$ soit normal dans $G$, mais $H$ ne soit pas normal dans $G$. Démontrer votre assertion.
+	\textbf{Indice :} Considérez le sous-groupe $V_4 := \{Id, (12)(34), (13)(24), (14)(23)\}$ comme l'un des sous-groupes potentiels.
+\end{exo}
+
+
+\end{document}
