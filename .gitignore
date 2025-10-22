@@ -42,7 +42,7 @@
 *.md5
 *.auxlock
 *.tex
-
+source/
 # Python artifacts
 __pycache__/
 *.py[cod]
