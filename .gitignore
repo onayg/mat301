@@ -137,3 +137,4 @@ cython_debug/
 
 # Temporary folder
 tmp/
+tds/source/
