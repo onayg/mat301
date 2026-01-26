@@ -1,61 +1,70 @@
-# MAT301 - Espaces Métriques et Topologie
+# MAT301 - Topologie Métrique
 
-## Informations Générales
+## Informations Pratiques
 
-**Horaires des cours :**
+**Horaires :**
+- Mercredi 11h-13h (H307)
+- Jeudi 15h-18h (C316)
 
-- **Mercredi** : 11h-13h (Salle H307)
-- **Jeudi** : 15h-18h (Salle C316)
+**Bureau :** Mercredis 14h-15h
 
-## Programme Officiel du Cours
+## Contenu du Cours
 
-### Sujets Théoriques
+Le cours généralise les notions de proximité, convergence et continuité de R aux espaces métriques arbitraires.
 
-| Semaine | Sujets                                                                                                            |
-| ------- | ----------------------------------------------------------------------------------------------------------------- |
-| 1       | Propriétés de l'ensemble des nombres réels                                                                        |
-| 2       | Suites dans l'ensemble des nombres réels, points d'accumulation des ensembles, valeurs limites des suites         |
-| 3       | Sous-ensembles ouverts et fermés de l'ensemble des nombres réels                                                  |
-| 4       | Espaces métriques : définition et exemples                                                                        |
-| 5       | Ensembles ouverts et fermés dans les espaces métriques                                                            |
-| 6       | Suites et convergence dans les espaces métriques, points d'accumulation des ensembles, valeurs limites des suites |
-| 7       | Propriétés topologiques des espaces métriques : complétude                                                        |
-| 8       | Propriétés topologiques des espaces métriques : compacité                                                         |
-| 9       | Propriétés topologiques des espaces métriques : connexité                                                         |
-| 10      | Suites et limites dans les espaces de fonctions                                                                   |
-| 11      | Ensembles ouverts et fermés dans les espaces de fonctions                                                         |
-| 12      | Propriétés topologiques des espaces de fonctions                                                                  |
-| 13      | Théorème du point fixe de Banach                                                                                  |
-| 14      | Applications du théorème du point fixe de Banach                                                                  |
+### 1. Rappels et Motivations
+Construction des systèmes de nombres (N, Z, Q, R) et leurs lacunes structurelles. Propriété de la borne supérieure. 
 
-## Système d'Évaluation
+### 2. La Notion de Distance
+- Axiomes : séparation, symétrie, inégalité triangulaire
+- Exemples : distances usuelles sur R^n, distance discrète, distance SNCF, distance p-adique
+- Constructions : distance induite, image réciproque, produit, norme
 
-### Répartition des Notes
+### 3. Vocabulaire Topologique
+- Boules, voisinages, ouverts, fermés
+- Opérateurs : intérieur, adhérence, extérieur, frontière
+- Équivalence topologique des métriques
 
-- **Contrôle continu** : 50%
-- **Examen final** : 50%
+### 4. Suites et Convergence
+- Points d'accumulation, convergence
+- Caractérisation séquentielle de l'adhérence et des fermés
 
-### Détails de l'Évaluation
+### 5. Applications Continues
+- Caractérisations : epsilon-delta, voisinages, séquentielle, ouverts/fermés
+- Applications lipschitziennes
+- Homéomorphismes
 
-- **1 Partiel** (50%)
-- **1 Final** (50%)
+### 6. Compacité
+- Définitions : recouvrements finis, Bolzano-Weierstrass
+- Nombre de Lebesgue, propriété des réverbères
+- Théorème de Heine-Borel
+- Parties compactes
 
-⚠️ **Important** : Les sujets des TD seront disponibles dans le dossier `tds/` de ce repository.
+### 7. Espaces Vectoriels Normés
+- Continuité des applications linéaires
+- Équivalence des normes en dimension finie
+- Lemme de Riesz, théorème de la dimension finie
+- Compacité locale
 
-## Compétences Développées
+### 8. Connexité
+- Caractérisations : 2-coloriages, partitions, 
+- Parties connexes, composantes connexes, - Théorème des valeurs intermédiaires
+- Connnexité par arcs, 
+- Convexité dans les EVN
 
-Ce cours vise à développer les compétences suivantes :
+### 9. Complétude
+- Suites de Cauchy, caractérisation de Cantor
+- Lien avec compacité et fermeture
+- Théorème du point fixe de Banach
 
-1. **Raisonnement mathématique** : Comprendre les principes du raisonnement par déduction et questionner systématiquement la validité des expressions mathématiques
-2. **Maîtrise des concepts fondamentaux** : Connaître et utiliser correctement les concepts et résultats mathématiques de base
-3. **Techniques de calcul** : Maîtriser les techniques de calcul fréquemment utilisées et les algorithmes
-4. **Expression mathématique** : Structurer et exprimer les idées mathématiques à l'oral et à l'écrit
-5. **Connexions conceptuelles** : Comprendre les liens entre les concepts et résultats mathématiques
-6. **Apprentissage autonome** : Développer des stratégies pour comprendre et résoudre des problèmes complexes
-7. **Applications** : Comprendre l'utilisation des outils mathématiques dans les sciences naturelles et le monde professionnel
+## Ressources
 
----
+- [Feuilles de TD](tds/) (TD1-TD7)
+- [Epreuves](epreuves/) (partiel, final, DM)
+- [Résumé du cours](resume.pdf)
+- [Notes Grenoble](topologie-1.pdf)
 
-📁 **Repository** : Les exercices de TD et les ressources du cours seront régulièrement mis à jour dans ce repository.
+## Evaluation
 
-📧 **Contact** : Pour toute question concernant le cours, n'hésitez pas à me contacter pendant les heures de bureau (: Mercredis 14h-15h) ou par email.
+- Partiel : 50%
+- Final : 50%
