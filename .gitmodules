@@ -1,3 +1,0 @@
-[submodule "private"]
-	path = private
-	url = git@gitlab.com:onayg/mat301-private.git
