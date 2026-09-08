@@ -4,10 +4,10 @@
 
 **Horaires :**
 
-- Mercredi 11h-13h (H307)
-- Jeudi 15h-18h (C316)
+- Mercredi 13h-16h 
+- Vendredi 14h-16h 
 
-**Bureau :** Mercredis 14h-15h
+**Bureau :** Sur rdv.
 
 ## Contenu du Cours
 
@@ -73,8 +73,3 @@ Construction des systèmes de nombres (N, Z, Q, R) et leurs lacunes structurelle
 - [Epreuves](epreuves_et_corrigees/) (partiel, final, butunleme, DM)
 - [Résumé du cours](resume.pdf)
 - [Notes Grenoble](topologie-1.pdf)
-
-## Evaluation
-
-- Partiel : 50%
-- Final : 50%
