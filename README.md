@@ -69,7 +69,8 @@ Construction des systèmes de nombres (N, Z, Q, R) et leurs lacunes structurelle
 
 ## Ressources
 
-- [Feuilles de TD](tds/) (TD1-TD7)
+- [Feuilles de TD 2026-27](tds/2026-27/) (TD1 et son corrigé)
+- [Feuilles de TD 2025-26](tds/2025-26/) (TD1-TD7, quiz de révision, DM complétude)
 - [Epreuves](epreuves_et_corrigees/) (partiel, final, butunleme, DM)
 - [Résumé du cours](resume.pdf)
 - [Notes Grenoble](topologie-1.pdf)
